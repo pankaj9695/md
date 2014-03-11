@@ -1,0 +1,86 @@
+body 
+{
+    background-color:#000000;
+	margin-bottom:150px;
+}
+
+.navbar{
+	
+	z-index:99999;
+}
+#contact{
+	z-index:99999;
+}
+
+.transparent{
+	background: rgba(0, 0, 0, 0.4);	
+	position: fixed;
+    top: 0;
+    width: 100%
+	
+}
+.navbar{
+	margin-bottom:0px;
+}
+.navbar-brand{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:2em;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+	color:#ffd200;
+}
+
+.slide-container{
+	margin-left:0px;
+margin-right:0px;
+}
+
+.slider{
+	background-color: #000000;
+	padding-left:0px;
+	padding-right:0px;
+	position:relative;
+}
+
+.slide1{
+position:relative;
+width: 100%;
+height: 100%;
+
+opacity: 0.3;
+}
+
+.texture{
+	width:100%;
+	height:100%;
+	background: url(../images/overlaysdots.png) repeat;
+	position:absolute;
+	z-index:7000;
+}
+
+.taglines{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:500%;
+	color:#fff;
+	position:absolute;
+	z-index:7500;
+	top: 25%;
+	color:#ffd201;
+	text-align:center;
+}
+
+.taglines-events{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:500%;
+	color:#fff;
+	position:absolute;
+	z-index:7500;
+	top: 40%;
+	text-align:center;
+	color:#fc02ff;
+	text-shadow: -1px 1px 5px #fc02ff, 1px -1px 20px #fc02ff;
+}
+
+.taglines > .newsline{
+	font-size:1px;
+}
